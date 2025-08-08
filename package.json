@@ -11,9 +11,10 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "hls.js": "^1.6.9",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-player-cc": "^1.0.9"
+    "react-player-cc": "^1.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",

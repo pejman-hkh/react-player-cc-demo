@@ -40,10 +40,11 @@ function App() {
 
     <div className="min-h-screen bg-gray-100 flex flex-col items-center p-6">
       {/* Header */}
-      <h1 className="text-3xl font-bold mb-8">React Player CC Demo</h1>
+      
+      <h1 className="text-3xl font-bold flex items-center"> <img src="logo.svg" width={100} /> React Player CC Demo</h1>
 
       {/* Player Card */}
-      <div className="bg-white rounded-2xl shadow-lg w-full max-w-4xl p-4">
+      <div className="bg-white rounded-2xl shadow-lg w-full max-w-4xl p-10">
 
         <h2 className="text-2xl font-bold mt-8">MP4 Example</h2>
 

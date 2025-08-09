@@ -3,3 +3,9 @@
 .playercc-container {
     height: 25rem !important;
 }
+
+pre {
+    max-height: 20rem;
+    overflow: auto;
+    @apply border border-gray-200 rounded-xl my-4;
+}

@@ -151,7 +151,6 @@ import './index.css'
 
 import Hls from "hls.js";
 import * as dashjs from 'dashjs';
-import CodeHighlighter from './CodeHighlighter';
 
 export class HlsVideoPlayer implements PlayerInterface {
   private hls: Hls;
